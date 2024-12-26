@@ -1,0 +1,134 @@
+﻿  FileName.cpp
+E:\visual c++ liberaries\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'FileName.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      E:\visual c++ liberaries\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+C:\Users\LENOVO\source\repos\dsa\FileName.cpp(50,19): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\LENOVO\source\repos\dsa\FileName.cpp(52,30): error C2297: '%': not valid as right operand has type 'float'
+C:\Users\LENOVO\source\repos\dsa\FileName.cpp(53,30): error C2297: '%': not valid as right operand has type 'float'
+C:\Users\LENOVO\source\repos\dsa\FileName.cpp(55,24): error C2660: 'sf::Transformable::setPosition': function does not take 2 arguments
+      E:\visual c++ liberaries\SFML-3.0.0\include\SFML\Graphics\Transformable.hpp(70,10):
+      see declaration of 'sf::Transformable::setPosition'
+      C:\Users\LENOVO\source\repos\dsa\FileName.cpp(55,24):
+      while trying to match the argument list '(float, float)'
+  
+C:\Users\LENOVO\source\repos\dsa\FileName.cpp(64,27): error C2440: '<function-style-cast>': cannot convert from 'sf::Vector2f' to 'sf::Vertex'
+      C:\Users\LENOVO\source\repos\dsa\FileName.cpp(64,27):
+      'sf::Vertex::Vertex': no overloaded function could convert all the argument types
+          E:\visual c++ liberaries\SFML-3.0.0\include\SFML\Graphics\Vertex.hpp(51,1):
+          could be 'sf::Vertex::Vertex(sf::Vertex &&)'
+              C:\Users\LENOVO\source\repos\dsa\FileName.cpp(64,27):
+              'sf::Vertex::Vertex(sf::Vertex &&)': cannot convert argument 1 from 'sf::Vector2f' to 'sf::Vertex &&'
+                  C:\Users\LENOVO\source\repos\dsa\FileName.cpp(64,43):
+                  Reason: cannot convert from 'sf::Vector2f' to 'sf::Vertex'
+                  C:\Users\LENOVO\source\repos\dsa\FileName.cpp(64,43):
+                  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+          E:\visual c++ liberaries\SFML-3.0.0\include\SFML\Graphics\Vertex.hpp(51,1):
+          or       'sf::Vertex::Vertex(const sf::Vertex &)'
+              C:\Users\LENOVO\source\repos\dsa\FileName.cpp(64,27):
+              'sf::Vertex::Vertex(const sf::Vertex &)': cannot convert argument 1 from 'sf::Vector2f' to 'const sf::Vertex &'
+                  C:\Users\LENOVO\source\repos\dsa\FileName.cpp(64,43):
+                  Reason: cannot convert from 'sf::Vector2f' to 'const sf::Vertex'
+                  C:\Users\LENOVO\source\repos\dsa\FileName.cpp(64,43):
+                  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+          C:\Users\LENOVO\source\repos\dsa\FileName.cpp(64,27):
+          while trying to match the argument list '(sf::Vector2f)'
+  
+C:\Users\LENOVO\source\repos\dsa\FileName.cpp(65,27): error C2440: '<function-style-cast>': cannot convert from 'sf::Vector2f' to 'sf::Vertex'
+      C:\Users\LENOVO\source\repos\dsa\FileName.cpp(65,27):
+      'sf::Vertex::Vertex': no overloaded function could convert all the argument types
+          E:\visual c++ liberaries\SFML-3.0.0\include\SFML\Graphics\Vertex.hpp(51,1):
+          could be 'sf::Vertex::Vertex(sf::Vertex &&)'
+              C:\Users\LENOVO\source\repos\dsa\FileName.cpp(65,27):
+              'sf::Vertex::Vertex(sf::Vertex &&)': cannot convert argument 1 from 'sf::Vector2f' to 'sf::Vertex &&'
+                  C:\Users\LENOVO\source\repos\dsa\FileName.cpp(65,44):
+                  Reason: cannot convert from 'sf::Vector2f' to 'sf::Vertex'
+                  C:\Users\LENOVO\source\repos\dsa\FileName.cpp(65,44):
+                  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+          E:\visual c++ liberaries\SFML-3.0.0\include\SFML\Graphics\Vertex.hpp(51,1):
+          or       'sf::Vertex::Vertex(const sf::Vertex &)'
+              C:\Users\LENOVO\source\repos\dsa\FileName.cpp(65,27):
+              'sf::Vertex::Vertex(const sf::Vertex &)': cannot convert argument 1 from 'sf::Vector2f' to 'const sf::Vertex &'
+                  C:\Users\LENOVO\source\repos\dsa\FileName.cpp(65,44):
+                  Reason: cannot convert from 'sf::Vector2f' to 'const sf::Vertex'
+                  C:\Users\LENOVO\source\repos\dsa\FileName.cpp(65,44):
+                  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+          C:\Users\LENOVO\source\repos\dsa\FileName.cpp(65,27):
+          while trying to match the argument list '(sf::Vector2f)'
+  
+C:\Users\LENOVO\source\repos\dsa\FileName.cpp(63,31): error C3078: array size must be specified in new expressions without an initializer
+C:\Users\LENOVO\source\repos\dsa\FileName.cpp(67,38): error C2039: 'Lines': is not a member of 'sf'
+      E:\visual c++ liberaries\SFML-3.0.0\include\SFML\System\Sleep.hpp(33,11):
+      see declaration of 'sf'
+  
+C:\Users\LENOVO\source\repos\dsa\FileName.cpp(67,38): error C2065: 'Lines': undeclared identifier
+C:\Users\LENOVO\source\repos\dsa\FileName.cpp(242,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\LENOVO\source\repos\dsa\FileName.cpp(263,42): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'sf::VideoMode'
+      C:\Users\LENOVO\source\repos\dsa\FileName.cpp(263,42):
+      'sf::VideoMode::VideoMode': no overloaded function could convert all the argument types
+          E:\visual c++ liberaries\SFML-3.0.0\include\SFML\Window\VideoMode.hpp(61,5):
+          could be 'sf::VideoMode::VideoMode(sf::Vector2u,unsigned int)'
+              C:\Users\LENOVO\source\repos\dsa\FileName.cpp(263,42):
+              'sf::VideoMode::VideoMode(sf::Vector2u,unsigned int)': cannot convert argument 1 from 'int' to 'sf::Vector2u'
+                  C:\Users\LENOVO\source\repos\dsa\FileName.cpp(263,43):
+                  'sf::Vector2<unsigned int>::Vector2': no overloaded function could convert all the argument types
+                      E:\visual c++ liberaries\SFML-3.0.0\include\SFML\System\Vector2.hpp(205,1):
+                      could be 'sf::Vector2<unsigned int>::Vector2(sf::Vector2<unsigned int> &&)'
+                          C:\Users\LENOVO\source\repos\dsa\FileName.cpp(263,43):
+                          'sf::Vector2<unsigned int>::Vector2(sf::Vector2<unsigned int> &&)': cannot convert argument 1 from 'int' to 'sf::Vector2<unsigned int> &&'
+                              C:\Users\LENOVO\source\repos\dsa\FileName.cpp(263,43):
+                              Reason: cannot convert from 'int' to 'sf::Vector2<unsigned int>'
+                              C:\Users\LENOVO\source\repos\dsa\FileName.cpp(263,43):
+                              Conversion requires a second user-defined-conversion operator or constructor
+                      E:\visual c++ liberaries\SFML-3.0.0\include\SFML\System\Vector2.hpp(205,1):
+                      or       'sf::Vector2<unsigned int>::Vector2(const sf::Vector2<unsigned int> &)'
+                          C:\Users\LENOVO\source\repos\dsa\FileName.cpp(263,43):
+                          'sf::Vector2<unsigned int>::Vector2(const sf::Vector2<unsigned int> &)': cannot convert argument 1 from 'int' to 'const sf::Vector2<unsigned int> &'
+                              C:\Users\LENOVO\source\repos\dsa\FileName.cpp(263,43):
+                              Reason: cannot convert from 'int' to 'const sf::Vector2<unsigned int>'
+                              C:\Users\LENOVO\source\repos\dsa\FileName.cpp(263,43):
+                              Conversion requires a second user-defined-conversion operator or constructor
+                      C:\Users\LENOVO\source\repos\dsa\FileName.cpp(263,43):
+                      while trying to match the argument list '(int)'
+          C:\Users\LENOVO\source\repos\dsa\FileName.cpp(263,42):
+          while trying to match the argument list '(int, int)'
+  
+C:\Users\LENOVO\source\repos\dsa\FileName.cpp(263,28): error C2665: 'sf::RenderWindow::RenderWindow': no overloaded function could convert all the argument types
+      E:\visual c++ liberaries\SFML-3.0.0\include\SFML\Graphics\RenderWindow.hpp(206,1):
+      could be 'sf::RenderWindow::RenderWindow(sf::RenderWindow &&)'
+          C:\Users\LENOVO\source\repos\dsa\FileName.cpp(263,28):
+          'sf::RenderWindow::RenderWindow(sf::RenderWindow &&)': cannot convert argument 1 from 'const char [23]' to 'sf::RenderWindow &&'
+              C:\Users\LENOVO\source\repos\dsa\FileName.cpp(263,54):
+              Reason: cannot convert from 'const char [23]' to 'sf::RenderWindow'
+      E:\visual c++ liberaries\SFML-3.0.0\include\SFML\Graphics\RenderWindow.hpp(206,1):
+      or       'sf::RenderWindow::RenderWindow(const sf::RenderWindow &)'
+          C:\Users\LENOVO\source\repos\dsa\FileName.cpp(263,28):
+          'sf::RenderWindow::RenderWindow(const sf::RenderWindow &)': cannot convert argument 1 from 'const char [23]' to 'const sf::RenderWindow &'
+              C:\Users\LENOVO\source\repos\dsa\FileName.cpp(263,54):
+              Reason: cannot convert from 'const char [23]' to 'const sf::RenderWindow'
+      E:\visual c++ liberaries\SFML-3.0.0\include\SFML\Graphics\RenderWindow.hpp(127,5):
+      or       'sf::RenderWindow::RenderWindow(sf::WindowHandle,const sf::ContextSettings &)'
+          C:\Users\LENOVO\source\repos\dsa\FileName.cpp(263,28):
+          'sf::RenderWindow::RenderWindow(sf::WindowHandle,const sf::ContextSettings &)': cannot convert argument 1 from 'const char [23]' to 'sf::WindowHandle'
+              C:\Users\LENOVO\source\repos\dsa\FileName.cpp(263,54):
+              Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Users\LENOVO\source\repos\dsa\FileName.cpp(263,28):
+      while trying to match the argument list '(const char [23])'
+  
+C:\Users\LENOVO\source\repos\dsa\FileName.cpp(271,23): error C2512: 'sf::Event': no appropriate default constructor available
+      E:\visual c++ liberaries\SFML-3.0.0\include\SFML\Window\Event.hpp(46,7):
+      see declaration of 'sf::Event'
+  
+C:\Users\LENOVO\source\repos\dsa\FileName.cpp(272,27): error C2660: 'sf::WindowBase::pollEvent': function does not take 1 arguments
+      E:\visual c++ liberaries\SFML-3.0.0\include\SFML\Window\WindowBase.hpp(226,40):
+      see declaration of 'sf::WindowBase::pollEvent'
+      C:\Users\LENOVO\source\repos\dsa\FileName.cpp(272,27):
+      while trying to match the argument list '(sf::Event)'
+  
+C:\Users\LENOVO\source\repos\dsa\FileName.cpp(273,27): error C2039: 'type': is not a member of 'sf::Event'
+      E:\visual c++ liberaries\SFML-3.0.0\include\SFML\Window\Event.hpp(46,7):
+      see declaration of 'sf::Event'
+  
