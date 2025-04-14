@@ -1,34 +1,41 @@
-# first-project
-How to Use
-Login/Registration
+# 🏗️ Tower Detection System
 
-On starting the program, choose to log in or register.
-For registration, provide a unique username and password.
-Manage Towers
+A C++ application for simulating and analyzing tower connectivity using graph algorithms like Prim's and Dijkstra's. The system includes a basic login and registration interface, file-based data persistence, and ASCII-art-based user interaction.
 
-After login, you can:
-Add or view towers.
-Connect towers with edges and weights.
-Analyze the network's connectivity or calculate MST and shortest paths.
-Save and Load
+---
 
-Save the graph to persist changes using the save option.
-Reload previously saved graphs during program initialization.
-Exit
+## 🚀 Features
 
-Log out to end your session or exit the program.
-Algorithms Used
-Prim's Algorithm: For Minimum Spanning Tree (MST).
-Dijkstra's Algorithm: For shortest path calculation.
-Depth-First Search (DFS): For connectivity checks.
-Files
-Code File: main.cpp - The source code implementing the system.
-Graph Data: graph.txt - Stores nodes and edges for the tower network.
-User Data: users.txt - Stores registered user credentials.
-Data Structures
-Graph Representation: Adjacency list.
-User Management: unordered_map for fast lookups.
-Priority Queue: For efficient graph traversals in Prim's and Dijkstra's algorithms.
-System Requirements
-Compiler: A C++ compiler supporting C++11 or later.
-OS: Windows (uses <conio.h> for secure password input).
+- ✅ **User Authentication**
+  - Register and login functionality with masked password input.
+  - User data saved in `users.txt`.
+
+- 🧠 **Graph-Based Tower Management**
+  - Add towers (nodes) and links (edges with weights).
+  - Display the full graph of tower connections.
+  - Check network connectivity (DFS-based).
+  - Find Minimum Spanning Tree (MST) using Prim’s algorithm.
+  - Compute shortest paths between towers using Dijkstra’s algorithm.
+  - Save/load graph to/from `graph.txt`.
+
+- 🎨 **ASCII Art Interface**
+  - Fun terminal visuals for a more interactive experience.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Language:** C++
+- **Concepts Used:** OOP, Graph Theory, File Handling, Standard Template Library (STL)
+- **Tools:** `g++`, `conio.h`, CLI
+
+---
+
+## 📂 File Structure
+
+```bash
+├── main.cpp               # Core application logic
+├── users.txt              # Stores registered user credentials
+├── graph.txt              # Stores saved graph data
+├── README.md              # This file
+└── (Optional) assets/     # Add any future assets like screenshots or diagrams
