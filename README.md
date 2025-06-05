@@ -1,23 +1,60 @@
-# 🏰 Tower Detection System
+<div align="center">
+
+# Tower Detection System
+
+![last-commit](https://img.shields.io/github/last-commit/Gushtasp47/Tower-Detection-System?style=flat&logo=git&logoColor=white&color=0080ff)
+![repo-top-language](https://img.shields.io/github/languages/top/Gushtasp47/Tower-Detection-System?style=flat&color=0080ff)
+![repo-language-count](https://img.shields.io/github/languages/count/Gushtasp47/Tower-Detection-System?style=flat&color=0080ff)
+
+**Built with:**
+
+![C++](https://img.shields.io/badge/C++-00599C.svg?style=flat&logo=C%2B%2B&logoColor=white)
+
 
 Welcome to the **Tower Detection System**, a console-based C++ application designed to manage and analyze network connectivity between towers using graph algorithms such as **Prim's (for MST)** and **Dijkstra's (for shortest paths)**. It includes a simple **user authentication system**, file-based data persistence, and an interactive menu system.
 
 ---
+</div>
 
-## 📌 Features
+ ## Table of Contents
 
-- 🧑‍💻 **User Authentication System** (Register & Login)
-- ➕ Add nodes and edges dynamically
-- 📡 View all tower (graph) connections
-- 🌉 Generate Minimum Spanning Tree (Prim's Algorithm)
-- 🚗 Find Shortest Path between Towers (Dijkstra's Algorithm)
-- 🔌 Check Graph Connectivity (DFS-based)
-- 💾 Save and Load graph from file (`graph.txt`)
-- ✨ Interactive ASCII-art menu interface
+- [Overview](#overview)
+- [Features](#features)
+- [File Structure](#file-structure)
+- [How to Compile and Run](#how-to-compile-and-run)
+- [How to Use](#how-to-use)
+- [Example Session](#example-session)
+- [Notes](#notes)
+- [License](#license)
 
 ---
 
-## 📁 File Structure
+## Overview
+
+The Tower Detection System is a console-based C++ application designed to manage and analyze network connectivity between towers.
+
+### Why Tower-Detection-System?
+
+- **Graph Structure** – Efficient node relationship representation  
+- **User Management** – Registration and login features  
+- **Graph Algorithms** – Implements Prim’s and Dijkstra’s algorithms  
+- **Data Persistence** – Save/load user and graph data  
+- **Interactive Interface** – Easy-to-use console menu
+
+## Features
+
+-  **User Authentication System** (Register & Login)
+-  Add nodes and edges dynamically
+-  View all tower (graph) connections
+-  Generate Minimum Spanning Tree (Prim's Algorithm)
+-  Find Shortest Path between Towers (Dijkstra's Algorithm)
+-  Check Graph Connectivity (DFS-based)
+-  Save and Load graph from file (`graph.txt`)
+-  Interactive ASCII-art menu interface
+
+---
+
+## File Structure
 
 ```plaintext
 .
@@ -29,9 +66,9 @@ Welcome to the **Tower Detection System**, a console-based C++ application desig
 
 ---
 
-## ⚙️ How to Compile and Run
+## How to Compile and Run
 
-### 🖥️ On Windows (using g++)
+### On Windows (using g++)
 
 1. **Compile the code:**
    ```bash
@@ -47,7 +84,7 @@ Welcome to the **Tower Detection System**, a console-based C++ application desig
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 1. **Launch the program** → You’ll be greeted with a welcome screen.
 2. **Register or Login**
@@ -64,7 +101,7 @@ Welcome to the **Tower Detection System**, a console-based C++ application desig
 
 ---
 
-## 🧠 Example Session
+##  Example Session
 
 ```plaintext
 === Welcome to the Tower Detection System ===
@@ -106,15 +143,15 @@ Node 1: (0, 5)
 
 ---
 
-## 📝 Notes
+## Notes
 
-- 📂 `graph.txt` and `users.txt` are automatically created for saving/loading data.
-- 💻 The program must be recompiled if you make code changes.
-- ⛔ Invalid node/edge entries are handled gracefully.
-- 🔐 Password input uses masked input (`*`) via `<conio.h>`.
+- `graph.txt` and `users.txt` are automatically created for saving/loading data.
+- The program must be recompiled if you make code changes.
+- Invalid node/edge entries are handled gracefully.
+- Password input uses masked input (`*`) via `<conio.h>`.
 
 ---
 
-## 📃 License
+## License
 
 This project is open-source and free to use for educational purposes.
